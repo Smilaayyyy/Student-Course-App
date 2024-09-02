@@ -1,0 +1,46 @@
+.course-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .course-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .course-link {
+    text-decoration: none;
+    color: #007bff; /* Blue color for the link */
+    font-weight: bold;
+  }
+  
+  .course-link h4 {
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #007bff; /* Underline */
+  }
+  
+  .course-item p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .course-item:hover {
+    background-color: #f9f9f9; /* Light gray background on hover */
+  }
+  
